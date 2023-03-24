@@ -18,6 +18,7 @@ const Image =styled('img')`
     height: 55px;
     margin: auto;
     ${'' /* padding-right: 70px; */}
+    
 `
 
 

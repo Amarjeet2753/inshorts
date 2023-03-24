@@ -1,10 +1,8 @@
 import express from 'express';
 const route = express.Router();
 
-
-route.get('/news', ()=>{
-    console.log("hello");
-});
+import { getNews } from '../controller/news_controller.js';
+route.get('/news', getNews);
 
 
 export default route;
